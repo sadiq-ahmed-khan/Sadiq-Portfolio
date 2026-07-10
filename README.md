@@ -10,7 +10,7 @@ A developer portfolio demonstrating full-stack web development — cart-to-check
 
 ## Tech stack
 
-Node.js · Express · MongoDB · [your frontend choice]
+Node.js · Express · MongoDB · React
 
 ## Contact
 
