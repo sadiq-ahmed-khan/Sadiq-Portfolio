@@ -1,0 +1,14 @@
+﻿# Project: Sadiq's Portfolio
+
+## Stack
+- Frontend: [fill in — React / HTML-CSS-JS / etc.]
+- Backend: Node.js, Express, MongoDB
+- Deployment: [fill in]
+
+## Conventions
+- Commit format: Conventional Commits (feat, fix, docs, chore, style, refactor)
+- Code style: [your preference]
+- Branch naming: feature/*, fix/*
+
+## Purpose
+Portfolio site proving I can build working full-stack e-commerce/ordering flows (see: Zaiqa Express, Sasha Mart, Sadiq Real Estate). One action: get visitors to contact me.
