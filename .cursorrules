@@ -1,9 +1,9 @@
 ﻿# Project: Sadiq's Portfolio
 
 ## Stack
-- Frontend: [fill in — React / HTML-CSS-JS / etc.]
+- Frontend: React
 - Backend: Node.js, Express, MongoDB
-- Deployment: [fill in]
+- Deployment: Netlify
 
 ## Conventions
 - Commit format: Conventional Commits (feat, fix, docs, chore, style, refactor)
