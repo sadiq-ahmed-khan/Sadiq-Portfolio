@@ -6,8 +6,8 @@ A developer portfolio demonstrating full-stack web development — cart-to-check
 
 - **Zaiqa Express** (Full Stack Web) — restaurant ordering app
 - **Sasha Mart** — e-commerce platform
-- **Sadiq Real Estate** — sports gear marketplace
-
+- **Sadiq Real Estate** — real 
+estate/hospitality showcase for Hostel Inn and Chanda Mehal
 ## Tech stack
 
 Node.js · Express · MongoDB · React

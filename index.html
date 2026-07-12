@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sadiq Ahmed Khan | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Sadiq Ahmed Khan featuring projects, skills, and a contact form."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav container">
+        <a class="brand" href="#home">Sadiq</a>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+
+      <div class="hero-content container" id="home">
+        <div>
+          <p class="eyebrow">Full-Stack Developer</p>
+          <h1>Building thoughtful digital experiences with modern web tools.</h1>
+          <p class="hero-copy">
+            I create fast, user-friendly web products for e-commerce, hospitality,
+            and business-focused platforms.
+          </p>
+          <a class="button primary" href="#contact">Let’s talk</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section container" id="about">
+        <h2>About Me</h2>
+        <p>
+          I’m a developer focused on turning ideas into polished online
+          experiences. My work blends strong UI design, reliable back-end logic,
+          and a solid understanding of user needs.
+        </p>
+      </section>
+
+      <section class="section container" id="projects">
+        <h2>Featured Projects</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Zaiqa Express</h3>
+            <p>Restaurant ordering experience with a smooth cart-to-checkout flow.</p>
+          </article>
+          <article class="card">
+            <h3>Sasha Mart</h3>
+            <p>Modern e-commerce storefront designed for easy browsing and conversions.</p>
+          </article>
+          <article class="card">
+            <h3>Sadiq Real Estate</h3>
+            <p>Showcase platform for hospitality and property listings.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container" id="contact">
+        <div class="contact-grid">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s build something meaningful.</h2>
+            <p>
+              Share a project idea or ask about my work. I’ll get back to you as soon as I can.
+            </p>
+          </div>
+
+          <form id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your name" />
+              <p class="error" id="nameError" aria-live="polite"></p>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" />
+              <p class="error" id="emailError" aria-live="polite"></p>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project"></textarea>
+              <p class="error" id="messageError" aria-live="polite"></p>
+            </div>
+
+            <button class="button primary" type="submit">Send message</button>
+            <p class="success" id="formSuccess" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
